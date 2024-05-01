@@ -8,18 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		1D7F78482BE1AAE4007D7843 /* MVVM_C_SwiftUI_TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78472BE1AAE4007D7843 /* MVVM_C_SwiftUI_TemplateApp.swift */; };
-		1D7F784A2BE1AAE4007D7843 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78492BE1AAE4007D7843 /* ContentView.swift */; };
 		1D7F784C2BE1AAE6007D7843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7F784B2BE1AAE6007D7843 /* Assets.xcassets */; };
 		1D7F78502BE1AAE6007D7843 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7F784F2BE1AAE6007D7843 /* Preview Assets.xcassets */; };
+		1D7F78652BE1ADA0007D7843 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78582BE1ADA0007D7843 /* MainCoordinator.swift */; };
+		1D7F78662BE1ADA0007D7843 /* MainCoordinatorNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78592BE1ADA0007D7843 /* MainCoordinatorNavigationView.swift */; };
+		1D7F78672BE1ADA0007D7843 /* MainFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F785A2BE1ADA0007D7843 /* MainFlow.swift */; };
+		1D7F78682BE1ADA0007D7843 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F785C2BE1ADA0007D7843 /* MainView.swift */; };
+		1D7F78692BE1ADA0007D7843 /* MainViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F785D2BE1ADA0007D7843 /* MainViewData.swift */; };
+		1D7F786A2BE1ADA0007D7843 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F785E2BE1ADA0007D7843 /* MainViewModel.swift */; };
+		1D7F786B2BE1ADA0007D7843 /* MainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78612BE1ADA0007D7843 /* MainService.swift */; };
+		1D7F786C2BE1ADA0007D7843 /* MainBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78632BE1ADA0007D7843 /* MainBuilder.swift */; };
+		1D7F787C2BE1AE46007D7843 /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F786F2BE1AE46007D7843 /* SecondCoordinator.swift */; };
+		1D7F787D2BE1AE46007D7843 /* SecondCoordinatorNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78702BE1AE46007D7843 /* SecondCoordinatorNavigationView.swift */; };
+		1D7F787F2BE1AE46007D7843 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78732BE1AE46007D7843 /* SecondView.swift */; };
+		1D7F78802BE1AE46007D7843 /* SecondViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78742BE1AE46007D7843 /* SecondViewData.swift */; };
+		1D7F78812BE1AE46007D7843 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78752BE1AE46007D7843 /* SecondViewModel.swift */; };
+		1D7F78832BE1AE46007D7843 /* SecondBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F787A2BE1AE46007D7843 /* SecondBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D7F78442BE1AAE4007D7843 /* MVVM-C SwiftUI Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C SwiftUI Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7F78472BE1AAE4007D7843 /* MVVM_C_SwiftUI_TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_C_SwiftUI_TemplateApp.swift; sourceTree = "<group>"; };
-		1D7F78492BE1AAE4007D7843 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D7F784B2BE1AAE6007D7843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D7F784D2BE1AAE6007D7843 /* MVVM_C_SwiftUI_Template.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MVVM_C_SwiftUI_Template.entitlements; sourceTree = "<group>"; };
 		1D7F784F2BE1AAE6007D7843 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D7F78582BE1ADA0007D7843 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		1D7F78592BE1ADA0007D7843 /* MainCoordinatorNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinatorNavigationView.swift; sourceTree = "<group>"; };
+		1D7F785A2BE1ADA0007D7843 /* MainFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFlow.swift; sourceTree = "<group>"; };
+		1D7F785C2BE1ADA0007D7843 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1D7F785D2BE1ADA0007D7843 /* MainViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewData.swift; sourceTree = "<group>"; };
+		1D7F785E2BE1ADA0007D7843 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1D7F78612BE1ADA0007D7843 /* MainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainService.swift; sourceTree = "<group>"; };
+		1D7F78632BE1ADA0007D7843 /* MainBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBuilder.swift; sourceTree = "<group>"; };
+		1D7F786F2BE1AE46007D7843 /* SecondCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
+		1D7F78702BE1AE46007D7843 /* SecondCoordinatorNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCoordinatorNavigationView.swift; sourceTree = "<group>"; };
+		1D7F78732BE1AE46007D7843 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		1D7F78742BE1AE46007D7843 /* SecondViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewData.swift; sourceTree = "<group>"; };
+		1D7F78752BE1AE46007D7843 /* SecondViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		1D7F787A2BE1AE46007D7843 /* SecondBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +78,9 @@
 		1D7F78462BE1AAE4007D7843 /* MVVM-C SwiftUI Template */ = {
 			isa = PBXGroup;
 			children = (
+				1D7F787B2BE1AE46007D7843 /* Second */,
+				1D7F78642BE1ADA0007D7843 /* Main */,
 				1D7F78472BE1AAE4007D7843 /* MVVM_C_SwiftUI_TemplateApp.swift */,
-				1D7F78492BE1AAE4007D7843 /* ContentView.swift */,
 				1D7F784B2BE1AAE6007D7843 /* Assets.xcassets */,
 				1D7F784D2BE1AAE6007D7843 /* MVVM_C_SwiftUI_Template.entitlements */,
 				1D7F784E2BE1AAE6007D7843 /* Preview Content */,
@@ -67,6 +94,82 @@
 				1D7F784F2BE1AAE6007D7843 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D7F785B2BE1ADA0007D7843 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1D7F78582BE1ADA0007D7843 /* MainCoordinator.swift */,
+				1D7F78592BE1ADA0007D7843 /* MainCoordinatorNavigationView.swift */,
+				1D7F785A2BE1ADA0007D7843 /* MainFlow.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1D7F785F2BE1ADA0007D7843 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1D7F785C2BE1ADA0007D7843 /* MainView.swift */,
+				1D7F785D2BE1ADA0007D7843 /* MainViewData.swift */,
+				1D7F785E2BE1ADA0007D7843 /* MainViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1D7F78602BE1ADA0007D7843 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D7F78622BE1ADA0007D7843 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1D7F78602BE1ADA0007D7843 /* Models */,
+				1D7F78612BE1ADA0007D7843 /* MainService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1D7F78642BE1ADA0007D7843 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1D7F785B2BE1ADA0007D7843 /* Coordinator */,
+				1D7F785F2BE1ADA0007D7843 /* Presentation */,
+				1D7F78622BE1ADA0007D7843 /* Service */,
+				1D7F78632BE1ADA0007D7843 /* MainBuilder.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1D7F78722BE1AE46007D7843 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1D7F786F2BE1AE46007D7843 /* SecondCoordinator.swift */,
+				1D7F78702BE1AE46007D7843 /* SecondCoordinatorNavigationView.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1D7F78762BE1AE46007D7843 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1D7F78732BE1AE46007D7843 /* SecondView.swift */,
+				1D7F78742BE1AE46007D7843 /* SecondViewData.swift */,
+				1D7F78752BE1AE46007D7843 /* SecondViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1D7F787B2BE1AE46007D7843 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				1D7F78722BE1AE46007D7843 /* Coordinator */,
+				1D7F78762BE1AE46007D7843 /* Presentation */,
+				1D7F787A2BE1AE46007D7843 /* SecondBuilder.swift */,
+			);
+			path = Second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +242,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D7F784A2BE1AAE4007D7843 /* ContentView.swift in Sources */,
+				1D7F78682BE1ADA0007D7843 /* MainView.swift in Sources */,
+				1D7F787D2BE1AE46007D7843 /* SecondCoordinatorNavigationView.swift in Sources */,
+				1D7F78802BE1AE46007D7843 /* SecondViewData.swift in Sources */,
+				1D7F78652BE1ADA0007D7843 /* MainCoordinator.swift in Sources */,
+				1D7F78672BE1ADA0007D7843 /* MainFlow.swift in Sources */,
+				1D7F786C2BE1ADA0007D7843 /* MainBuilder.swift in Sources */,
+				1D7F78662BE1ADA0007D7843 /* MainCoordinatorNavigationView.swift in Sources */,
+				1D7F786B2BE1ADA0007D7843 /* MainService.swift in Sources */,
+				1D7F78692BE1ADA0007D7843 /* MainViewData.swift in Sources */,
 				1D7F78482BE1AAE4007D7843 /* MVVM_C_SwiftUI_TemplateApp.swift in Sources */,
+				1D7F787C2BE1AE46007D7843 /* SecondCoordinator.swift in Sources */,
+				1D7F787F2BE1AE46007D7843 /* SecondView.swift in Sources */,
+				1D7F786A2BE1ADA0007D7843 /* MainViewModel.swift in Sources */,
+				1D7F78832BE1AE46007D7843 /* SecondBuilder.swift in Sources */,
+				1D7F78812BE1AE46007D7843 /* SecondViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +383,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "MVVM-C SwiftUI Template/MVVM_C_SwiftUI_Template.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MVVM-C SwiftUI Template/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -289,6 +406,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "gustavoalens.sample.MVVM-C-SwiftUI-Template";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -303,9 +421,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "MVVM-C SwiftUI Template/MVVM_C_SwiftUI_Template.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MVVM-C SwiftUI Template/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -325,6 +444,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "gustavoalens.sample.MVVM-C-SwiftUI-Template";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
