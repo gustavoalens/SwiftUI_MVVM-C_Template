@@ -13,10 +13,15 @@ final class SecondViewModel: SecondViewModelProtocol {
   func pop() {
     coordinator.pop()
   }
+  
+  func stackSecondAgain() {
+    coordinator.stackSecondAgain()
+  }
 }
 
 protocol SecondViewModelProtocol: ObservableObject {
   var viewData: SecondViewData { get }
   
   func pop()
+  func stackSecondAgain()
 }

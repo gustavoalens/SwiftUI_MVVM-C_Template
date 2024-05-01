@@ -1,6 +1,6 @@
 import SwiftUI
 
-enum MainFlow {
+enum SecondFlow {
   case second
   
   func getFlow() -> AnyFlow {

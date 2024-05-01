@@ -13,9 +13,17 @@ struct SecondView<ViewModel: SecondViewModelProtocol>: View {
         Text(viewModel.viewData.popTitle)
       }
     )
+    Button(
+      action: {
+        viewModel.stackSecondAgain()
+      },
+      label: {
+        Text("Add second feature on stack again")
+      }
+    )
   }
 }
 
 #Preview {
-  SecondBuilder.build()
+  SecondBuilder().build()
 }

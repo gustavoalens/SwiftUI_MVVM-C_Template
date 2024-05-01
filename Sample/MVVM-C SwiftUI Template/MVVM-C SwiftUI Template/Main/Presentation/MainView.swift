@@ -22,10 +22,5 @@ struct MainView<ViewModel: MainViewModelProtocol>: View {
 }
 
 #Preview {
-  MainView(
-    viewModel: MainViewModel(
-      service: MainService(),
-      coordinator: MainCoordinator(path: .init())
-    )
-  )
+  MainBuilder().build()
 }
