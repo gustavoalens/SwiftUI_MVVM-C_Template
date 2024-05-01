@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D4F6F6B2BE272250098652A /* PathControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4F6F6A2BE272250098652A /* PathControl.swift */; };
+		1D4F6F6D2BE29DC10098652A /* SecondFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4F6F6C2BE29DC10098652A /* SecondFlow.swift */; };
+		1D4F6F6F2BE2B7870098652A /* BaseNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4F6F6E2BE2B7870098652A /* BaseNavigationStack.swift */; };
+		1D4F6F712BE2B7B40098652A /* FlowProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4F6F702BE2B7B40098652A /* FlowProtocol.swift */; };
 		1D7F78482BE1AAE4007D7843 /* MVVM_C_SwiftUI_TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F78472BE1AAE4007D7843 /* MVVM_C_SwiftUI_TemplateApp.swift */; };
 		1D7F784C2BE1AAE6007D7843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7F784B2BE1AAE6007D7843 /* Assets.xcassets */; };
 		1D7F78502BE1AAE6007D7843 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7F784F2BE1AAE6007D7843 /* Preview Assets.xcassets */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D4F6F6A2BE272250098652A /* PathControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathControl.swift; sourceTree = "<group>"; };
+		1D4F6F6C2BE29DC10098652A /* SecondFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFlow.swift; sourceTree = "<group>"; };
+		1D4F6F6E2BE2B7870098652A /* BaseNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationStack.swift; sourceTree = "<group>"; };
+		1D4F6F702BE2B7B40098652A /* FlowProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowProtocol.swift; sourceTree = "<group>"; };
 		1D7F78442BE1AAE4007D7843 /* MVVM-C SwiftUI Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C SwiftUI Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7F78472BE1AAE4007D7843 /* MVVM_C_SwiftUI_TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_C_SwiftUI_TemplateApp.swift; sourceTree = "<group>"; };
 		1D7F784B2BE1AAE6007D7843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +67,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D4F6F692BE2720E0098652A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1D4F6F6A2BE272250098652A /* PathControl.swift */,
+				1D4F6F6E2BE2B7870098652A /* BaseNavigationStack.swift */,
+				1D4F6F702BE2B7B40098652A /* FlowProtocol.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		1D7F783B2BE1AAE3007D7843 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +96,7 @@
 		1D7F78462BE1AAE4007D7843 /* MVVM-C SwiftUI Template */ = {
 			isa = PBXGroup;
 			children = (
+				1D4F6F692BE2720E0098652A /* Utils */,
 				1D7F787B2BE1AE46007D7843 /* Second */,
 				1D7F78642BE1ADA0007D7843 /* Main */,
 				1D7F78472BE1AAE4007D7843 /* MVVM_C_SwiftUI_TemplateApp.swift */,
@@ -148,6 +167,7 @@
 			children = (
 				1D7F786F2BE1AE46007D7843 /* SecondCoordinator.swift */,
 				1D7F78702BE1AE46007D7843 /* SecondCoordinatorNavigationView.swift */,
+				1D4F6F6C2BE29DC10098652A /* SecondFlow.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -242,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D4F6F6D2BE29DC10098652A /* SecondFlow.swift in Sources */,
+				1D4F6F712BE2B7B40098652A /* FlowProtocol.swift in Sources */,
 				1D7F78682BE1ADA0007D7843 /* MainView.swift in Sources */,
 				1D7F787D2BE1AE46007D7843 /* SecondCoordinatorNavigationView.swift in Sources */,
 				1D7F78802BE1AE46007D7843 /* SecondViewData.swift in Sources */,
@@ -252,9 +274,11 @@
 				1D7F786B2BE1ADA0007D7843 /* MainService.swift in Sources */,
 				1D7F78692BE1ADA0007D7843 /* MainViewData.swift in Sources */,
 				1D7F78482BE1AAE4007D7843 /* MVVM_C_SwiftUI_TemplateApp.swift in Sources */,
+				1D4F6F6B2BE272250098652A /* PathControl.swift in Sources */,
 				1D7F787C2BE1AE46007D7843 /* SecondCoordinator.swift in Sources */,
 				1D7F787F2BE1AE46007D7843 /* SecondView.swift in Sources */,
 				1D7F786A2BE1ADA0007D7843 /* MainViewModel.swift in Sources */,
+				1D4F6F6F2BE2B7870098652A /* BaseNavigationStack.swift in Sources */,
 				1D7F78832BE1AE46007D7843 /* SecondBuilder.swift in Sources */,
 				1D7F78812BE1AE46007D7843 /* SecondViewModel.swift in Sources */,
 			);
