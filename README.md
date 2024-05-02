@@ -4,7 +4,7 @@ This template is proposes to apply MVVM-C using SwiftUI with and NavigationStack
 
 ## Proposition
 
-![Workflow](./images/diagram.png)
+![Workflow](images/diagram.png)
 
 Coordinator Class, View Model and Service are abstracts with protocol. For this, Generic is applied.
 
@@ -15,7 +15,7 @@ One example of implementation can be seen in `/Sample` directory
 To use the template in your XCode, you can download the `SwiftUI-MVVM-C.xctemplate` folder and move to `~/Library/Developer/Xcode/Templates`.
 
 After that, we can find the template when will create a New File in the Project:
-<img src="./images/xcodeNewFile.png" width="60%"/>
+<img src="images/xcodeNewFile.png" width="60%"/>
 
 
 
